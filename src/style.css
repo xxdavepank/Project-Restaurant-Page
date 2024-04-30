@@ -1,0 +1,117 @@
+body {
+  background-image: url("./background1.png");
+  background-size: cover;
+  background-position: center;
+  height: 2048px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: static;
+  top: 0;
+  width: 100%;
+  font-family: "Great Vibes", cursive;
+  display: flex;
+  flex-direction: column;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Great Vibes", cursive;
+  /* Add fallback fonts here */
+}
+
+/* Body Text Font (Serif) */
+p,
+ul,
+ol {
+  font-family: "Adobe Garamond", serif;
+  /* Add fallback fonts here */
+}
+a {
+  padding: 10%;
+}
+.nav-link {
+  align-self: center;
+  padding: 2px;
+  margin: 10px;
+}
+.nav-link:hover {
+  cursor: pointer;
+  /* font-size: 1.2em; */
+}
+/* Header Styles */
+.header {
+  color: #fff;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 98%;
+  position: fixed;
+  background-color: rgba(51, 51, 51, 0.5);
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  /* bottom: auto; */
+  border-radius: 20px;
+}
+
+/* Footer Styles */
+footer {
+  position: absolute;
+  top: 2000px;
+  left: 2px;
+  right: 2px;
+  bottom: auto;
+  width: 100%;
+  background-color: rgba(51, 51, 51, 0.5);
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+#content {
+  height: auto;
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 20%;
+  /* background-color: rgba(51, 51, 51, 0.5); */
+  color: #fff;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
+}
+#content h1 {
+  padding: 15%;
+}
+.menu {
+  margin-top: 10%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: auto;
+  margin-right: auto;
+  width: 98%;
+  padding: 10px;
+  text-align: center; /* Align content in center */
+}
+
+.contact {
+  margin-top: 20%;
+}
+* {
+  /* border: solid 2px red; */
+}
+.appetizerDiv {
+  background-image: url("./Appetizer.png");
+  background-size: contain; /* Adjust the background size here */
+  background-repeat: no-repeat; /* Ensure the background image is not repeated */
+  background-position: center; /* Center the background image */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 98%;
+  height: 1000px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  margin-top: 20%;
+  border-radius: 10px;
+}
